@@ -1,6 +1,21 @@
-# IDEN Product Dashboard Scraper
+# IDEN Product Dashboard - **Error Recovery** - Graceful handling of networ   MAX_PRODUCTS = 3755. Save results to `products.json`
 
-<div align="center">
+## Data Format
+
+The extracted data is saved as a structured JSON array:Maximum products to extract
+   ```
+
+## Usage
+
+Run the scraper with:es and unexpected page structures
+
+## Requirements
+
+- Python 3.7+
+- Playwright
+- python-dotenv
+
+## Installation<div align="center">
   
 ![Python](https://img.shields.io/badge/Python-3.7+-blue.svg)
 ![Playwright](https://img.shields.io/badge/Playwright-1.30+-green.svg)
@@ -9,6 +24,11 @@
 </div>
 
 A sophisticated web scraper built with Playwright that automates the extraction of product data from the IDEN challenge dashboard. This tool elegantly handles authentication, session management, and efficiently extracts product information from lazy-loaded cards through infinite scrolling.
+
+## Features Product Dashboard Scraper
+
+
+A web scraper built with Playwright that automates the extraction of product data from the IDEN challenge dashboard. This tool elegantly handles authentication, session management, and efficiently extracts product information from lazy-loaded cards through infinite scrolling.
 
 ## � Features
 
@@ -30,8 +50,8 @@ A sophisticated web scraper built with Playwright that automates the extraction 
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/yourusername/iden-product-scraper.git
-   cd iden-product-scraper
+   git clone https://github.com/virtuoso-04/play-wright.git
+   cd play-wright
    ```
 
 2. **Set up a virtual environment** (recommended):
@@ -50,7 +70,7 @@ A sophisticated web scraper built with Playwright that automates the extraction 
    python -m playwright install chromium
    ```
 
-## ⚙️ Configuration
+## Configuration
 
 1. **Create a `.env` file** in the project root:
    ```env
@@ -97,7 +117,7 @@ The extracted data is saved as a structured JSON array:
 ]
 ```
 
-## 🧰 Implementation Details
+## Implementation Details
 
 ### Authentication Flow
 
@@ -125,7 +145,7 @@ The script implements comprehensive error handling:
 3. **Timeout Management** - Smart waiting for network stability and element visibility
 4. **Diagnostic Logging** - Detailed error reporting with optional screenshots
 
-##  Troubleshooting
+## Troubleshooting
 
 ### Common Issues
 
@@ -153,20 +173,20 @@ context = p.chromium.launch_persistent_context(
 )
 ```
 
-## 🤝 Contributing
+## Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request.
 
-## 📜 License
+## License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-## 📮 Contact
+## Contact
 
 For questions or feedback, please open an issue on GitHub.
 
 ---
 
 <div align="center">
-  <sub>Built with ❤️ by Anant Sharma</sub>
+  <sub>Built by Anant Sharma</sub>
 </div>
